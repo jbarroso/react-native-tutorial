@@ -5,11 +5,12 @@ import LotsOfGreetings from '../components/LotsOfGreetings';
 import Blinks from '../components/Blinks';
 import LotsOfStyles from '../components/LotsOfStyles';
 import FixedDimensionsBasics from '../components/FixedDimensionsBasics';
+import FlexDimensionsBasics from '../components/FlexDimensionsBasics';
 
 export default class App extends Component {
   render() {
     return (
-      <FixedDimensionsBasics/>
+      <FlexDimensionsBasics/>
     );
   }
 }
