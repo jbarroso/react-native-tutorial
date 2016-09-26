@@ -10,11 +10,12 @@ import FlexDirectionBasics from '../components/FlexDirectionBasics';
 import JustifyContentBasics from '../components/JustifyContentBasics';
 import AlignItemsBasics from '../components/AlignItemsBasics';
 import PizzaTranslator from '../components/PizzaTranslator';
+import IScrolledDown from '../components/IScrolledDown';
 
 export default class App extends Component {
   render() {
     return (
-      <PizzaTranslator/>
+      <IScrolledDown/>
     );
   }
 }
