@@ -3,14 +3,12 @@ import HelloWorld from '../components/HelloWorld';
 import Bananas from '../components/Bananas';
 import LotsOfGreetings from '../components/LotsOfGreetings';
 import Blinks from '../components/Blinks';
+import LotsOfStyles from '../components/LotsOfStyles';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <Blinks/>
+      <LotsOfStyles/>
     );
   }
 }
-
-export default App;
-
