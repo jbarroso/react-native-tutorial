@@ -14,11 +14,12 @@ import IScrolledDown from '../components/IScrolledDown';
 import ListViewBasics from '../components/ListViewBasics';
 import Networking from '../components/Networking';
 import SimpleNavigation from '../components/SimpleNavigation';
+import FlexboxDemo from '../components/FlexboxDemo';
 
 export default class App extends Component {
   render() {
     return (
-      <SimpleNavigation/>
+      <HelloWorld/>
     );
   }
 }
