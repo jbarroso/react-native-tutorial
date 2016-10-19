@@ -13,6 +13,7 @@ import PizzaTranslator from '../components/PizzaTranslator';
 import IScrolledDown from '../components/IScrolledDown';
 import ListViewBasics from '../components/ListViewBasics';
 import Networking from '../components/Networking';
+import NetworkingImproved from '../components/NetworkingImproved';
 import SimpleNavigation from '../components/SimpleNavigation';
 import FlexboxDemo from '../components/FlexboxDemo';
 
