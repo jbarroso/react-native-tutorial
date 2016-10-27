@@ -7,12 +7,9 @@ export default class Networking extends Component {
     super(props);
     let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     this.state = {
-      dataSource: ds.cloneWithRows([
-        'John', 'Joel', 'James', 'Jimmy', 'Jackson', 'Jillian', 'Julie', 'Devin'
-      ])
+      dataSource: ds.cloneWithRows([])
     };
     this.getMoviesFromApiAsync();
-
   }
 
   getMoviesFromApiAsync() {

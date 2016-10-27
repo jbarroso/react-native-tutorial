@@ -5,7 +5,7 @@ function getSections() {
   return [
     {
       name: 'Ofertas',
-        image: require('../../img/icono-ofertas.png')
+      image: require('../../img/icono-ofertas.png')
     },
     {
       name: 'Destinos',
@@ -17,6 +17,14 @@ function getSections() {
     },
     {
       name: 'Hoteles',
+      image: require('../../img/icono-hoteles.png')
+    },
+    {
+      name: 'Hoteles1',
+      image: require('../../img/icono-hoteles.png')
+    },
+    {
+      name: 'Hoteles2',
       image: require('../../img/icono-hoteles.png')
     }
   ];
@@ -38,7 +46,7 @@ class FlexboxDemo extends Component {
     return (
       <Image style={layout.container} source={require('../../img/fondo-avion2.jpg')}>
         <View style={[layout.header, styles.header]}>
-            <Text style={styles.textHeader}>¿Que buscas?</Text>
+          <Text style={styles.textHeader}>¿Que buscas?</Text>
         </View>
         <View style={layout.body}>
           {sectionComponents}
@@ -103,8 +111,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(51, 204, 255, 0.15)'
   },
   icono: {
-    width: 85,
-    height: 85,
+    width: 45,
+    height: 45,
     marginHorizontal: 25,
     marginVertical: 5
   },
